@@ -1,4 +1,5 @@
-/* @font-face {
+/* 
+@font-face {
   font-family: 'Cabin';
   /* Antes de descargar el archivo, le decimos al buscador
   que intente buscar en local la fuente con nombre
@@ -7,7 +8,8 @@
        local('Cabin Regular'),
        local('Cabin-Regular'),
        url(cabin-regular.woff) format('woff'); 
-} */
+} 
+*/
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
