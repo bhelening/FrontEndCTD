@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+header{
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.logotop{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 234px;
+}
+.pizzafronttop{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.green{
+    color: #39B24A;
+}
+.white{
+    color: #FFFFFF;
+}
+.red{
+    color: #FC200C;
+    padding-right: 5px;
+}
+.menutop li{
+    list-style:none;
+    display: inline-block;
+    padding-right: 10px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    height: 350px;
+    position: relative;
+    margin: 0 auto;
+    top: 45px;
+}
+.promodelivery{
+    background-color: #FFFFFF;
+    width: 490px;
+}
+.promo{
+    position: absolute;
+    top:20px;
+    left: 15px;
+}
+.podio{
+    background-color: #FFFFFF;
+    width: 490px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.pp{
+    position: relative;
+    left: 150px;
+    top:20px;
+}
+h3{
+    position: relative;
+    top:70px;
+    left:83px;
+}
+.cincopizzas li{
+    font-weight: bold;
+    position: relative;
+    top:99px;
+    left: 45px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.falling{
+    position: relative;
+    left: 320px;
+    bottom: 40px;
+}
+
+footer{
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+    margin-top: 65px;
+}
+.logobottom{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+}
+.pizzafrontbottom{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.menubottom li{
+    list-style:none;
+    padding-top: 10px;
+}
+/*
+
+footer.logoymenu{
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+footer .menu {
+    color: #F3F3F3;
+    list-style: none;
+    
+}
+
+footer.menu li{
+    font-size: 16px;
+    margin: 10px 0 5px -30px;
+    
+}
+
